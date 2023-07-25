@@ -9,8 +9,7 @@ def printNos(x: int) -> List[int]:
         number.append(x)
         return number
 
-
 # Driver code
 
-arr = printNos(5)  # By default recursion set limit is 1000
+arr = printNos(5)              # By default recursion set limit is 1000
 print(arr)
