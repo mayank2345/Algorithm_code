@@ -16,5 +16,5 @@ def hoarsePartition(arr, n):
         arr[i], arr[j] = arr[j], arr[i]
 
 
-arr = [7,5]
+arr = [2, 5, 1, 7, 9, 11, 12]
 print(hoarsePartition(arr, len(arr)))
